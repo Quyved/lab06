@@ -1,0 +1,15 @@
+{
+  "name": "mongoose-crud",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Food CRUD API with Express, Mongoose and MongoDB Atlas",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "check": "node --check server.js && node --check models/food.js && node --check routes/foodRoutes.js"
+  },
+  "engines": { "node": ">=22.12.0" },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^9.0.0"
+  }
+}
